@@ -1,0 +1,156 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+{% block head %}
+<head>
+    <meta charset="UTF-8">
+    <title>kaibaga fc/?full stats</title>
+     <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css'%}">
+     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/nav.css'%}">
+     <script src="https://kit.fontawesome.com/9674323289.js" crossorigin="anonymous"></script>
+</head>
+{% endblock %}
+<body>
+{% block content %}
+    <div class="card bg-dark text-white">
+  <img src="{% static 'images/stats.jpg' %}" class="card-img" alt="..." height="250px">
+  <div class="card-img-overlay">
+    <h5 class="card-title2">STATS</h5>
+  </div>
+</div>
+<div class="mytablelist">
+     <table class="table">
+        <thead class="tablehead">
+          <tr>
+              <th>SN</th>
+              <th>Top Scores</th>
+              <th>Goals</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <th>1</th>
+            <th>Moseti</th>
+              <th>2</th>
+
+        </tbody>
+      </table>
+     <table class="table">
+        <thead class="tablehead">
+          <tr>
+              <th>SN</th>
+              <th>Top Assists</th>
+              <th>Assists</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <th>1</th>
+            <th>Daggy</th>
+              <th>1</th>
+
+        </tbody>
+      </table>
+     <table class="table">
+        <thead class="tablehead">
+          <tr>
+              <th>SN</th>
+              <th>Name</th>
+              <th class="bg-warning">Yellow cards</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <th>1</th>
+            <th>karuiru</th>
+              <th>1</th>
+
+        </tbody>
+      </table>
+     <table class="table">
+        <thead class="tablehead">
+          <tr>
+              <th class="bg-dark">SN</th>
+              <th class="bg-dark">Name</th>
+              <th style="background-color: red">Red Cards</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <th>1</th>
+            <th>Joe</th>
+              <th>2</th>
+
+        </tbody>
+      </table>
+</div>
+    <h3 class="text-center text-decoration-underline">league standings</h3>
+    <div class="standings">
+     <table class="table">
+        <thead class="tablehead2">
+          <tr>
+              <th>SN</th>
+              <th>Team</th>
+              <th>PL</th>
+              <th>W</th>
+              <th>D</th>
+              <th>L</th>
+              <th>GF</th>
+              <th>GA</th>
+              <th>GD</th>
+              <th>PT</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+               <th>1</th>
+              <th>Juventus</th>
+              <th>1</th>
+              <th>0</th>
+              <th>1</th>
+              <th>0</th>
+              <th>2</th>
+              <th>2</th>
+              <th>0</th>
+              <th>1</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+<style>
+.standings{
+    display: flex;
+    min-height: 60vh;
+}
+.mytablelist{
+    display: flex;
+    margin: 30px;
+}
+.tablehead{
+    background-color: #a41515;
+    color: #fff3cd;
+}
+.tablehead2{
+    background-color: #000000;
+    color: #fff3cd;
+}
+.table{
+    width: 100%;
+   margin: 20px;
+}
+.card-title2{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: bolder;
+      font-family: sans-serif;
+        font-size: 80px;
+    }
+</style>
+      {% include 'footer.html' %}
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+{% endblock %}
+</body>
+</html>

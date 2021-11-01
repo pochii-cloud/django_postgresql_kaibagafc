@@ -1,0 +1,19 @@
+
+  .container2{
+      height: 30px;
+  }
+  .nav-item{
+      margin-left: 20px;
+      color: #fff3cd;
+  }
+    .nav-link{
+        margin-left: 40px;
+        font-size: 20px;
+        color: #fff3cd;
+    }
+    .nav-link:hover{
+        text-decoration-line: underline;
+        text-transform: capitalize;
+       text-decoration-color: #a41515;
+        color: #fff3cd;
+    }

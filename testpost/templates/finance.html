@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+{% block head %}
+<head>
+    <meta charset="UTF-8">
+    <title>our financial reports</title>
+     <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css'%}">
+     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/nav.css'%}">
+     <script src="https://kit.fontawesome.com/9674323289.js" crossorigin="anonymous"></script>
+</head>
+{% endblock %}
+<body>
+{% block content %}
+    <style>
+    .scroll{
+        float: left;
+        width: 300px;
+    }
+    .scroll-data{
+        margin-left: 200px;
+        display: grid;
+
+    }
+    .card-title2{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: bolder;
+      font-family: sans-serif;
+        font-size: 80px;
+    }
+    .mainfinance{
+        min-height: 80vh;
+    }
+    </style>
+    <div class="mainfinance">
+    <div class="card bg-dark text-white">
+  <img src="{% static 'images/finance2.jpg' %}" class="card-img" alt="..." height="250px">
+  <div class="card-img-overlay">
+    <h5 class="card-title2">FINANCIALS</h5>
+  </div>
+</div>
+    <p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">make payments</a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">enquire about payments done</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+       payments are done through m-pesa with the given paybill or through  given phone number ,payment can also be done physically to douglas the club captain or any other club official
+          <strong>0743998610(douglas kamau)</strong>
+          <strong>paybill:-</strong><br>
+          <strong>Regards.Club Captain</strong>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        for payments done and not recorded or has issues call <b>0743998610 (club captain)</b> or if payments were done through m-pesa forward the m-pesa message for correction<br>
+          <strong>Regards.Club Captain</strong>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="scroll">
+<nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+  <a class="navbar-brand" href="#">FINANCIALS</a>
+  <nav class="nav nav-pills flex-column">
+    <a class="nav-link" href="#item-1">league contributions</a>
+    <nav class="nav nav-pills flex-column">
+      <a class="nav-link ms-3 my-1" href="#item-1-1">ref contributions</a>
+      <a class="nav-link ms-3 my-1" href="#item-1-2">cleaning jerseys</a>
+      <a class="nav-link ms-3 my-1" href="#item-1-3">training expense</a>
+    </nav>
+    <a class="nav-link" href="#item-3">joining club contributions</a>
+    <nav class="nav nav-pills flex-column">
+      <a class="nav-link ms-3 my-1" href="#item-3-1">medical contributions</a>
+    </nav>
+  </nav>
+</nav>
+</div>
+    <div class="scroll-data">
+<div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+
+  <h5 id="item-1"><h4 class="text-decoration-underline">Club Contributions</h4><br>
+      league contributions are done at the start of the season for <b>ksh.100 each player</b> to the club captain for.Registration fee for the club
+  is <b>ksh 1100</b> the rest is deposited to the clubs accounts</h5>
+
+    <h4 id="item-1-1"><h4 class="text-decoration-underline">Referree Contributions</h4><br>
+     Referee contributions are done every weekend we are having a match at <b>ksh 20 per player</b> to cater for the referee expenses and the lines men too.
+    </h4>
+
+  <h5 id="item-1-2"><h4 class="text-decoration-underline">Cleaning Contributions</h4></h5>
+     <p>To clean our jerseys  we contribute <b>ksh 10 per player</b> for the cleaning expenses </p>
+     <h5 id="item-1-3"><h4 class="text-decoration-underline">Training Contributions</h4></h5>
+       <p>Training Contributions are <b>ksh 20 per player</b> to cater for expenses that may arise e.g repairing the ball,purchasing a new ball</p>
+  <h4 id="item-3"><h4 class="text-decoration-underline">Joining Contributions</h4></h4>
+       <p>To join our team ur subject to <b>ksh 100</b>for the whole season</p>
+  <h5 id="item-3-1"><h4 class="text-decoration-underline">Medical Contributions</h4></h5>
+     <p>Medical contributions are contributed by each player at <b>ksh 100</b> for medical expenses like medical bill for an injured player or for deep heat and bandages</p>
+</div>
+    </div>
+</div>
+    {% include 'footer.html' %}
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+!DOCTYPE html>
+<html lang="en">
+{% block head %}
+<head>
+    <meta charset="UTF-8">
+    <title>kaibaga fc/Join Us</title>
+     <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css'%}">
+     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/nav.css'%}">
+     <script src="https://kit.fontawesome.com/9674323289.js" crossorigin="anonymous"></script>
+</head>
+{% endblock %}
+<body>
+{% block content %}
+<h5 class="text-center text-decoration-underline">Fill the form below</h5>
+    <form method="post">
+     {% csrf_token %}
+       {{ form }}
+    <button class="btn-success" type="submit">submit</button>
+    </form>
+      {% include 'footer.html' %}
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+{% endblock %}
+</body>
+</html>

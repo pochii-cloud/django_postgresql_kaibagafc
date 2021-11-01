@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2e33c16-b973-4854-ab30-513e0ea009a9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1vzILscwutkjfSs93wBKL5SQ8mi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/PycharmProjects/testp/static/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\testp\static\images" />
+      <recent name="D:\PycharmProjects\testp\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="testp" type="Python.DjangoServer" factoryName="Django server">
+      <module name="testp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2e33c16-b973-4854-ab30-513e0ea009a9" name="Default Changelist" comment="" />
+      <created>1627558438714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627558438714</updated>
+      <workItem from="1627558517252" duration="7486000" />
+      <workItem from="1627577434369" duration="152000" />
+      <workItem from="1627972383144" duration="1467000" />
+      <workItem from="1627978480801" duration="1736000" />
+      <workItem from="1628010425787" duration="211000" />
+      <workItem from="1628102969578" duration="604000" />
+      <workItem from="1628237053423" duration="12457000" />
+      <workItem from="1628318359305" duration="361000" />
+      <workItem from="1628322871089" duration="30000" />
+      <workItem from="1628358580992" duration="5612000" />
+      <workItem from="1628364313649" duration="300000" />
+      <workItem from="1628487266414" duration="2877000" />
+      <workItem from="1628490993865" duration="2217000" />
+      <workItem from="1628502903811" duration="4026000" />
+      <workItem from="1628511618946" duration="1978000" />
+      <workItem from="1628573344926" duration="1794000" />
+      <workItem from="1629220950297" duration="1163000" />
+      <workItem from="1629222143019" duration="130000" />
+      <workItem from="1629222310151" duration="3880000" />
+      <workItem from="1629308672745" duration="5051000" />
+      <workItem from="1629354791890" duration="14226000" />
+      <workItem from="1629370329261" duration="9200000" />
+      <workItem from="1629385552191" duration="7420000" />
+      <workItem from="1629397788131" duration="2202000" />
+      <workItem from="1629438564335" duration="21000" />
+      <workItem from="1629461826023" duration="5888000" />
+      <workItem from="1629471344352" duration="154000" />
+      <workItem from="1629480213154" duration="1129000" />
+      <workItem from="1629540707472" duration="319000" />
+      <workItem from="1629564821390" duration="324000" />
+      <workItem from="1629575373264" duration="8938000" />
+      <workItem from="1629607110384" duration="1350000" />
+      <workItem from="1629697351170" duration="1955000" />
+      <workItem from="1629701048203" duration="631000" />
+      <workItem from="1629703086124" duration="25000" />
+      <workItem from="1629719856837" duration="13000" />
+      <workItem from="1629719904356" duration="13000" />
+      <workItem from="1629741163755" duration="4149000" />
+      <workItem from="1629784737846" duration="18484000" />
+      <workItem from="1629819501192" duration="7000" />
+      <workItem from="1630045624785" duration="98000" />
+      <workItem from="1632503668025" duration="59000" />
+      <workItem from="1632509933051" duration="56000" />
+      <workItem from="1634143911741" duration="71000" />
+      <workItem from="1634380211807" duration="175000" />
+      <workItem from="1635762148621" duration="844000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

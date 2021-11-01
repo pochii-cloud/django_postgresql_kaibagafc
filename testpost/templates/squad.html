@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+{% block head %}
+<head>
+    <meta charset="UTF-8">
+    <title>kaibaga fc/full squad</title>
+     <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css'%}">
+     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/nav.css'%}">
+     <script src="https://kit.fontawesome.com/9674323289.js" crossorigin="anonymous"></script>
+</head>
+{% endblock %}
+
+<body>
+{% block content %}
+    <style>
+    .squad{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .subs{
+        float: right;
+        margin-right: 200px;
+
+    }
+    .mysquad{
+        pointer-events: none
+    }
+    .card-title2{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: bolder;
+      font-family: sans-serif;
+        font-size: 80px;
+    }
+
+    @media screen and (max-width: 1000px)
+    {
+        .squad{
+            min-height: 80vh;
+           display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+        .subs{
+            min-height: 40vh;
+            justify-content: center;
+            align-items: center;
+            display: grid;
+        }
+        .mysquad{
+            width: 600px;
+        }
+
+    }
+</style>
+      <div class="card bg-dark text-white">
+  <img src="{% static 'images/squad2.jpg' %}" class="card-img" alt="..." height="250px">
+  <div class="card-img-overlay">
+    <h5 class="card-title2">SQUAD</h5>
+  </div>
+</div>
+    <div class="squad">
+<iframe class="mysquad" width="350" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://lineupbuilder.com/football/350x500/?p=11&amp;a=1&amp;t=&amp;c=00db00&amp;1=GK_oblack%201_1_388_174&amp;2=DL_luke%20shaw2_2_317_64&amp;3=DCL_Ramos4_4_327_138&amp;4=DCR_thiago%20silva5_5_327_211&amp;5=DR_reece%20james%2023_23_317_284&amp;6=MC_mount8_8_216_142&amp;7=DM_kante6_6_252_185&amp;8=AL_depay7_7_146_74&amp;9=AC_daggy10_10_148_175&amp;10=AR_brodaggy7_7_150_279&amp;11=FCA_pochii9_9_80_174&amp;c2=ffffff&amp;c3=ffffff&amp;output=embed"></iframe>
+    <div class="subs">
+        <table class="table">
+            <tr>
+                <td>name</td>
+                <td>position</td>
+            </tr>
+            <tbody>
+            <tr>
+                <td>kamaa</td>
+                <td>CM</td>
+            </tr>
+            <tr><td>kamaa</td>
+                <td>CM</td></tr>
+            <tr><td>kamaa</td>
+                <td>CM</td></tr>
+            <tr><td>kamaa</td>
+                <td>CM</td></tr>
+            <tr><td>kamaa</td>
+                <td>CM</td></tr>
+            <tr><td>kamaa</td>
+                <td>CM</td></tr>
+            <tr><td>kamaa</td>
+                <td>CM</td></tr>
+            <tr><td>kamaa</td>
+                <td>CM</td></tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    {% include 'footer.html' %}
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+{% endblock %}
+
+</body>
+</html>
